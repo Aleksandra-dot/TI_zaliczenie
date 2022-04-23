@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <title>Astrologia</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Aleksadra Czaplak">
+  <meta name="keywords" content="Astrologia, zodiak, znak zodiaku, horoskop">
+  <meta name="description" content="Wyjaśnienie znaczenia znaków zodiaku">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="screen" href="Styles/style.css" />
+  <link rel="shortcut icon" href="Images/zodiak.png" />
+  <link rel="stylesheet" media="screen" href="Styles/styl_menu_gorne.css" />
+  <script src="https://kit.fontawesome.com/e9f0bc6965.js" crossorigin="anonymous"></script>
+  <link href="./CSS/all.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script>
+     $(document).ready(function() {
+      $(".b1").on("click", () => {
+          $('html, body').animate({
+            scrollTop: $("#sekcja1").offset().top
+          }, 'slow');
+      })
+	});
+  $(document).ready(function() {
+      $(".b2").on("click", () => {
+          $('html, body').animate({
+            scrollTop: $("#sekcja2").offset().top
+          }, 'slow');
+      })
+	});
+  $(document).ready(function() {
+      $(".b3").on("click", () => {
+          $('html, body').animate({
+            scrollTop: $("#sekcja3").offset().top
+          }, 'slow');
+      })
+	});
+  $(document).ready(function() {
+      $(".b4").on("click", () => {
+          $('html, body').animate({
+            scrollTop: $("#sekcja4").offset().top
+          }, 'slow');
+      })
+	});
+  $(window).resize(function() {
+
+if ($(this).width() < 1000) {
+
+  $('.side-menu').hide();
+  $('.menu_gorne').show();
+  
+
+} else {
+
+  $('.side-menu').show();
+  $('.menu_gorne').hide();
+  }
+  
+});
+
+  </script>
+</head>
+
+
+<body>
+
+  <header class="mg"> 
+    <div class="logo">
+      <i class="fa-solid fa-star fa-3x" id="star"></i>
+      <p class="text_logo">Astrologia</p>
+  </div>
+    <nav class="menu_gorne">
+      <ul id="lista_menu">
+        <li><a href="#sekcja1">
+            <p class="text b1">Home</p><i class="fa-solid fa-house fa-2x" id="icon1"></i>
+          </a>
+        </li>
+        <li><a href="#sekcja2">
+          <p class="text b2">Astrologia</p><i class="fa-solid fa-circle-question fa-2x" id="icon2"></i>
+        </a></li>
+        <li><a href="#sekcja3">
+          <p class="text b3">Znak zodiaku</p><i class="fa-solid fa-sun fa-2x" id="icon3"></i>
+        </a></li>
+        <li><a href="#sekcja4">
+          <p class="text b4">Żywioły</p><i class="fa-solid fa-fire fa-2x" id="icon4"></i>
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="side-menu-container">
+    <nav class="side-menu">
+      <a href="#sekcja1">
+        <div><i class="fa-solid fa-house fa-1x b1"></i></div>
+      </a>
+      <a href="#sekcja2">
+        <div><i class="fa-solid fa-circle-question fa-1x b2"></i></div>
+      </a>
+      <a href="#sekcja3">
+        <div><i class="fa-solid fa-sun fa-1x b3"></i></div>
+      </a>
+      <a href="#sekcja4">
+        <div><i class="fa-solid fa-fire fa-1x b4"></i></div>
+      </a>
+    </nav>
+  </div>
+  <div class="landing_page">
+    <img src="https://www.publicdomainpictures.net/pictures/70000/nahled/stars-in-the-night-sky.jpg" alt="landing">
+  </div>
+
+
+  <div class="container_main container">
+    <div class="container" id="sekcja1">
+
+      <h1>Astrologia</h1>
+      <p>Odkryj mądrość zapisaną w gwiazdach</p>
+    </div>
+    <hr>
+
+    <div class="div_img">
+
+
+      <a
+        href="https://ocdn.eu/pulscms-transforms/1/IHnk9kqTURBXy9kNTE2MDdlNzgyNGY1ZGMzZmRiZWY4OTI0OTMyMDlmYS5qcGVnk5UDACPNA-jNAjKTBc0DFM0BvJMJpmE3ODM3OQaBoTAB/profesjonalna-astrologia-dlaczego-warto-z-niej-korzystac.jpg">
+        <img
+          src="https://ocdn.eu/pulscms-transforms/1/IHnk9kqTURBXy9kNTE2MDdlNzgyNGY1ZGMzZmRiZWY4OTI0OTMyMDlmYS5qcGVnk5UDACPNA-jNAjKTBc0DFM0BvJMJpmE3ODM3OQaBoTAB/profesjonalna-astrologia-dlaczego-warto-z-niej-korzystac.jpg"
+          alt="Konstelacje" class="images">
+        <br />Link do obrazka
+      </a>
+
+    </div>
+
+
+    <div class="container" id="sekcja2">
+      <p>
+        Astrologia to jedna z najstarszych dziedzin wiedzy, która wskazuje, jak wpływają na nas układy planet i jak
+        możemy wykorzystać ich energię do rozwoju i poprawy jakości życia. Znajomość horoskopu urodzeniowego (czyli tego
+        układu, który był na niebie w momencie naszego urodzenia) oraz aktualnych tranzytów (układy działające na nas w
+        określonym momencie) pomaga w zrozumieniu siebie – zarządzaniu swoim potencjałem czy rozwiązywaniu bieżących
+        wyzwań. Wiedza ta przydaje się zwłaszcza na życiowych zakrętach, w momentach wyborów czy sytuacjach kryzysowych.
+        Bywa pomocna w rozwoju osobistym. Ułatwia wybrać optymalną opcję na dany czas.
+      </p>
+      <footer style="text-align : right;">
+        <p>Żródło: Zwierciadło<br>
+          <a href="https://zwierciadlo.pl/lifestyle/524248,1,astrologia-dla-poczatkujacych.read">zwierciadlo.pl</a>
+        </p>
+      </footer>
+      <hr>
+
+    </div>
+    <div class="container" id="sekcja3">
+      <h2 style="font-size: 150%; background-color: #e6eeff;">Znak zodiaku</h2>
+      <p>Najbardziej podstawowym zjawiskiem z zakresu astrologii są znaki zodiaku. Według Carla Gustava Junga to jedne z
+        wielu archetypów (obok cyfr, postaci mitologicznych bądź baśniowych czy kolorów) istniejących w zbiorowej
+        nieświadomości, do których każdy z nas indywidualnie jest „podłączony”. Każdy z nich obdarza nas swoimi blaskami
+        i cieniami.</p>
+
+      <a href="https://astro.cafeastrology.com/natal.php">Sprawdź swój znak zodiaku</a>
+      <hr>
+    </div>
+    <div class="div_img">
+      <a href="https://wally.com.pl/galerie/p/plakat-znaki-zodiaku-114_51242.png">
+        <img src="https://wally.com.pl/galerie/p/plakat-znaki-zodiaku-114_51242.png" alt="obrazek2" class="images">
+        <br />Link do obrazka
+      </a>
+
+    </div>
+    <div class="container" id="sekcja4">
+      <h3 style="font-size: 150%; background-color: #e6eeff">Lista znaków zodiaku oraz wielka trójka zodiakalna</h3>
+
+      <p>Gdy sprawdzamy swój horoskop, kierujemy się swoim znakiem zodiaku słońca. W końcu ten znak królował na niebie w
+        dniu, w którym przyszliśmy na świat. Przewodzi nam on również w sprawdzaniu kosmicznej zgodności z drugą
+        połówką. Jednak astrologia to dziedzina, która drąży głębiej oraz skupia się szczegółach. W rzeczywistości masz
+        3 znaki zodiaku decydujące o twojej osobowości. Znak słoneczny, księżycowy i znak wschodzący to tzw. Wielka
+        Trójka Zodiakalna</p>
+        
+      <div class="uklad">
+
+        <div class="half">
+
+          <dl>
+            <dt><b>Znak słońca</b></dt>
+            <dd>- uważany za rdzeń osobowości</dd>
+            <dt><b>Znak księżyca</b></dt>
+            <dd>- Rządzi wszystkim, co kryje się w cieniu, czyli intymniejszą, zakrytą częścią nas.</dd>
+            <dt><b>Znak wschodzący</b></dt>
+            <dd>- Ty w oczach innch</dd>
+          </dl>
+        </div>
+        <div class="half" >
+
+          <ul>
+            <li>Baran</li>
+            <li>Byk</li>
+            <li>Bliźnięta</li>
+            <li>Rak</li>
+            <li>Lew</li>
+            <li>Panna</li>
+            <li>Waga</li>
+            <li>Skorpion</li>
+            <li>Strzelec</li>
+            <li>Koziorożec</li>
+            <li>Wodnik</li>
+            <li>Ryby</li>
+          </ul>
+        </div>
+
+
+
+
+
+        <hr>
+
+        <table>
+          <caption>Znaki zodiaku i ich żywioły </caption>
+          <tr>
+            <th>Znak zodiaku</th>
+            <th>Daty</th>
+            <th>Żywioł</th>
+          </tr>
+          <tr>
+            <td>Baran</td>
+            <td>21 marca - 19 kwietnia</td>
+            <td>Ogień</td>
+          </tr>
+          <tr>
+            <td>Byk</td>
+            <td>20 kwietnia - 20 maja</td>
+            <td>Ziemia</td>
+          </tr>
+          <tr>
+            <td>Bliźnięta</td>
+            <td>21 maja - 20 czerwca</td>
+            <td>Powietrze</td>
+          </tr>
+          <tr>
+            <td>Rak</td>
+            <td>21 czerwca - 22 lipca</td>
+            <td>Woda</td>
+          </tr>
+          <tr>
+            <td>Lew</td>
+            <td>23 lipca - 22 sierpnia</td>
+            <td>Ogień</td>
+          </tr>
+          <tr>
+            <td>Panna</td>
+            <td>23 sierpnia - 22 września</td>
+            <td>Ziemia</td>
+          </tr>
+          <tr>
+            <td>Waga</td>
+            <td>23 września - 22 października</td>
+            <td>Powietrze</td>
+          </tr>
+          <tr>
+            <td>Skorpion</td>
+            <td>23 października - 21 listopada</td>
+            <td>Woda</td>
+          </tr>
+          <tr>
+            <td>Strzelec</td>
+            <td>22 listopada - 21 grudnia</td>
+            <td>Ogień</td>
+          </tr>
+          <tr>
+            <td>Koziorożec</td>
+            <td>22 grudnia - 19 stycznia</td>
+            <td>Ziemia</td>
+          </tr>
+          <tr>
+            <td>Wodnik</td>
+            <td>20 stycznia - 18 lutego</td>
+            <td>Powietrze</td>
+          </tr>
+          <tr>
+            <td>Ryby</td>
+            <td>19 lutego - 20 marca</td>
+            <td>Woda</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <hr>
+
+    <footer>
+      <p>Żródło: Elle<br>
+        <a
+          href="https://www.elle.pl/artykul/kazda-osoba-ma-3-znaki-zodiaku-i-to-one-decyduja-o-tym-kim-jestesmy-znak-ksiezycowy-sloneczny-wschodzacy-co-oznaczaja-i-jak-je-sprawdzic">elle.pl</a>
+      </p>
+    </footer>
+  </div>;
+
+
+
+
+
+
+
+  <footer>Autor: Aleksandra Czaplak, 2022, &copy;</footer>
+
+
+
+
+
+</body>
+
+</html>
